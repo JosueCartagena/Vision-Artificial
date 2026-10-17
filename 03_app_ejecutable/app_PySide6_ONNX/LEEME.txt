@@ -1,0 +1,8 @@
+OPCION A (crear el .exe, Windows):
+  1) Instala Python 3.10-3.12 (python.org) marcando "Add python.exe to PATH".
+  2) Haz doble clic en crear_exe.bat  (tarda unos minutos, descarga las librerias).
+  3) Abre dist\LSB_Reconocimiento\LSB_Reconocimiento.exe
+     Para usarlo en otra PC copia TODA la carpeta dist\LSB_Reconocimiento (no solo el .exe).
+OPCION B (sin crear .exe): doble clic en ejecutar_sin_exe.bat.
+Modelo: model.onnx + labels.txt (tu modelo de Teachable Machine convertido; mismas predicciones).
+Prueba sin camara:  python lsb_app.py --demo foto.jpg

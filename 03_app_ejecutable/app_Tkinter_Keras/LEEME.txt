@@ -1,0 +1,5 @@
+1) Instalar (Python 3.10-3.12 recomendado):   pip install -r requirements.txt
+2) Prueba rápida:                              python prueba_camara.py     (Q para salir)
+3) Interfaz:                                   python interfaz.py
+Archivos: keras_model.h5 y labels.txt son el modelo exportado de Teachable Machine.
+tm_loader.py corrige la carga del modelo para TensorFlow nuevo (usa tf-keras).

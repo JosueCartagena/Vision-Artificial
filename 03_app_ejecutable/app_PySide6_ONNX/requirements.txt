@@ -1,0 +1,5 @@
+PySide6-Essentials
+onnxruntime
+opencv-python
+numpy
+pyinstaller
